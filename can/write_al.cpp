@@ -49,6 +49,10 @@ void write_port()
     srand(time(NULL));
     unsigned short short_1, short_2;
     unsigned int int_1;
+    short_1 = rand() % 65535;
+	short_2 = rand() % 65535;
+	int_1 = rand() % 4294967295;
+
     /*============== Fill your code to write data =================*/
     
 
