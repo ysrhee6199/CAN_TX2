@@ -44,7 +44,7 @@ int open_port(const char* port)
 
 void write_port()
 {
-
+    int s1[8] = {0,};
     srand(time(NULL));
     /*=============Define data frame=============*/ 
     struct can_frame frame;	
